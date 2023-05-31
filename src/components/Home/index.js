@@ -5,7 +5,7 @@ import HomeBody from "../HomeBody";
 
 const HomeScreen = () => {
   return (
-    <View>
+    <View style={{paddingVertical: 60, backgroundColor: '#fff'}}>
       <HomeTitle />
       <ScrollView>
         <HomeBody />
